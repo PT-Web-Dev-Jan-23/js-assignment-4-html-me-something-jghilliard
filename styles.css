@@ -2,13 +2,14 @@ img {
 	margin: 0;
 	padding: 0;
 	text-align: center;
+    image-rendering: auto;
 }
 main {
-    margin:80;
+    margin:80px;
 }
 
 body {
-    margin: 8;
+    margin: 8px;
     display:block;
     background-color: powderblue;
 }
@@ -19,5 +20,11 @@ body {
 
 #mainHeading {
     color:red;
+    text-align: center;
+}
+.currency{
+    color:black;
+    font-size: 200%;
+    font-weight: 200;
 
 }
