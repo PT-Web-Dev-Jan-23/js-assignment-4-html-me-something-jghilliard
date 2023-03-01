@@ -1,5 +1,5 @@
 img {
-	margin: 0;
+	margin: 10;
 	padding: 0;
 	text-align: center;
     image-rendering: auto;
@@ -12,6 +12,7 @@ body {
     margin: 8px;
     display:block;
     background-color: powderblue;
+    max-width: fit-content;
 }
 
 .funParagraph {
@@ -22,9 +23,17 @@ body {
     color:red;
     text-align: center;
 }
-.currency{
+
+.currency {
     color:black;
     font-size: 200%;
     font-weight: 200;
+}
+.intro {
+    padding:20px;
+    text-align: center;
+}
 
+.story {
+    text-align:center;
 }
