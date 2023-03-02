@@ -1,1 +1,55 @@
-/* Write your CSS here! */
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    
+  }
+
+
+img {
+	margin: 10;
+	padding: 0;
+	/*text-align: center;*/
+    image-rendering: auto;
+    width: 300px;
+}
+main {
+    margin:80px;
+}
+
+body {
+    margin: 8px;
+    display:block;
+    background-color: powderblue;
+    max-width: fit-content;
+}
+
+.funParagraph {
+    color:green;
+}
+
+#mainHeading {
+    color:red;
+    text-align: center;
+}
+
+.currency {
+    color:black;
+    font-size: 200%;
+    font-weight: 200;
+}
+.intro {
+    padding:20px;
+    text-align: center;
+}
+
+.story {
+    text-align:center;
+}
